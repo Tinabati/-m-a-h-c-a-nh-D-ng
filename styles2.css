@@ -253,6 +253,7 @@ input:checked + label .description {
 }
 
 .giua2 p{
+	font-family: 'Roboto', sans-serif;
 	padding:1rem 0;
 	line-height: 2;
 	color:var(--light-color);
