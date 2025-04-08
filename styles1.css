@@ -75,7 +75,7 @@ body {
 		
 h2{
 	font-family: 'Roboto';
-	font-size:100%;
+	font-size: 35px;
 	color:var(--black);
 }
 
@@ -84,7 +84,7 @@ p{
 	padding:1rem 0;
 	line-height: 2;
 	color:var(--light-color);
-	font-size: 1rem;
+	font-size: 20px;
 	text-align: justify;
 	clear: both; 
 }		
@@ -132,7 +132,7 @@ p{
 		
 h2{
 	font-family: 'Roboto';
-	font-size:100%;
+	font-size: 35px;
 	color:var(--black);
 }
 
@@ -141,7 +141,7 @@ p{
 	padding:1rem 0;
 	line-height: 2;
 	color:var(--light-color);
-	font-size: 1rem;
+	font-size: 20px;
 	text-align: justify;
 	clear: both; 
 }
@@ -189,7 +189,7 @@ p{
 		
 h2{
 	font-family: 'Roboto';
-	font-size:100%;
+	font-size: 35px;
 	color:var(--black);
 }
 
@@ -198,7 +198,7 @@ p{
 	padding:1rem 0;
 	line-height: 2;
 	color:var(--light-color);
-	font-size: 1rem;
+	font-size: 20px;
 	text-align: justify;
 	clear: both; 
 }
@@ -244,7 +244,7 @@ p{
 		
 h2{
 	font-family: 'Roboto';
-	font-size:100%;
+	font-size: 35px;
 	color:var(--black);
 }
 
@@ -253,7 +253,7 @@ p{
 	padding:1rem 0;
 	line-height: 2;
 	color:var(--light-color);
-	font-size: 1rem;
+	font-size: 20px;
 	text-align: justify;
 	clear: both; 
 }
