@@ -1,0 +1,120 @@
+/*chỉnh styles cho nav*/
+nav {background-color: #473f34; 
+	padding: 0; display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0; font-family: 'Cormorant Garamond', sans-serif; font-weight: bold;
+	border-radius: 20px;
+      	box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+/*chỉnh menu nav*/
+nav ul {list-style: none; 
+      margin: 0; display: flex;
+      padding: 0; text-align: right;}
+nav il {position: relative;}
+nav ul li a {color: #f0e5c7; display: block;  padding: 15px 20px;
+      text-decoration: none; position: relative;}
+nav ul li a:hover {text-decoration: underline;}
+/*chỉnh styles cho header*/
+header {background-color: #f0e5c7;
+      	color: #473f34; font-family: 'Playfair Display', serif; font-size: 25px; 
+      	padding: 50px;
+      	text-align: center; text-indent: 2em;
+	border-radius: 20px;
+      	box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+h2 {font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 15px;}
+header p {font-family: 'Roboto', sans-serif; font-weight: bold;}
+/*căn lề giữa*/
+body {text-align: center; background-color: #f5f5f5;
+	background-image: url('album/soon2.png');}
+/*làm mũi tên*/
+.scroll-down {display: inline-block;
+  	font-size: 40px;
+  	text-decoration: none;
+  	color: #473f34;
+  	animation: bounce 2s infinite;
+  	position: fixed;
+  	bottom: 20px;
+  	left: 50%;
+  	transform: translateX(-30%);
+  	cursor: pointer;
+  	z-index: 1000;}
+/*animation cho mũi tên*/
+@keyframes bounce {0%, 100% {transform: translate(-50%, 0);}
+  			50% {transform: translate(-50%, -10px);}}
+html {scroll-behavior: smooth;}
+/*chỉnh video*/
+video {border-radius: 35px;}
+/*chỉnh chữ*/
+.dau {font-family: 'Roboto', sans-serif; font-size: 20px;
+	text-align: justify;
+	background-color: white;
+      	padding: 50px;
+	text-indent: 4em;
+      	margin-bottom: 20px;
+      	border-radius: 30px;
+      	box-shadow: 0 0 8px rgba(0,0,0,0.05);}
+.giua {font-family: 'Roboto', sans-serif; font-size: 20px;
+	text-align: justify;
+	background-color: white;
+      	padding: 50px;
+	text-indent: 4em;
+      	margin-bottom: 20px;
+      	border-radius: 30px;
+      	box-shadow: 0 0 8px rgba(0,0,0,0.05);}
+.cuoi {font-family: 'Roboto', sans-serif; font-size: 20px;
+	text-align: justify;
+	text-indent: 4em;
+	background-color: white;
+      	padding: 10px 50px;
+      	border-radius: 30px;
+      	box-shadow: 0 10px 10px rgba(0,0,0,0.05);}
+ul {list-style: none;}
+h2 {font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 30px;
+	text-indent: 2em;
+	border-color: #473f34;}
+.banquyen {font-size: 15px;
+  	font-family: 'Roboto', sans-serif;
+  	color: #473f34; background-color: #f0e5c7;
+  	margin-top: 10px;
+	border-radius: 30px;
+  	margin-bottom: 30px;
+  	text-align: center;
+  	font-style: italic;}
+/*chỉnh footer*/
+.site-footer {background-color: #473f34;
+  	color: white;
+  	padding: 20px 20px;
+  	text-align: center;
+  	font-family: 'Roboto', sans-serif;
+  	margin-top: 40px;
+  	border-radius: 30px;
+  	box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);}
+.footer-container {max-width: 900px;
+  	margin: 0 auto;}
+.footer-title {font-size: 22px;
+  	font-weight: bold;
+  	margin-bottom: 8px;}
+.footer-links {list-style: none;
+  	padding: 0;
+  	margin: 20px 0 10px 0;
+  	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	gap: 15px;}
+.footer-links li a {color: #f0e5c7;
+  	text-decoration: none;
+  	font-weight: bold;
+  	transition: 0.3s;}
+.footer-links li a:hover {text-decoration: underline;}
+.footer-contact {margin: 10px 0;
+  	font-size: 14px;}
+.footer-contact a {color: #ffffff;
+  	text-decoration: underline;}
+.footer-copy {font-size: 13px;
+  	margin-top: 10px;
+  	color: #ccc;}
+.footer-thanks {font-style: italic;
+  	color: #f0e5c7;
+  	margin-top: 10px;}
+
+

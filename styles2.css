@@ -1,0 +1,361 @@
+/*chỉnh styles cho nav*/
+nav {background-color: #473f34; 
+	padding: 0; display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0; font-family: 'Cormorant Garamond', sans-serif; font-weight: bold;
+	border-radius: 20px;
+      	box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+/*chỉnh menu nav*/
+nav ul {list-style: none; 
+      margin: 0; display: flex;
+      padding: 0; text-align: right;}
+nav il {position: relative;}
+nav ul li a {color: white; display: block;  padding: 15px 20px;
+      text-decoration: none; position: relative;}
+nav ul li a:hover {color:peachpuff;text-decoration: underline;}
+nav ul li a.active {color:#8c9657; text-decoration: underline;}
+/*chỉnh styles cho header*/
+header {background-color: #f0e5c7;
+      	color: #473f34; font-family: 'Playfair Display', serif; font-size: 25px; 
+      	padding: 50px;
+      	text-align: center;
+	border-radius: 20px;
+      	box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+h2 {font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 15px;}
+header p {font-family: 'Roboto', sans-serif; font-weight: bold;}
+/*căn lề giữa*/
+body {text-align: center; background-color: #f5f5f5;
+	background-image: url('images/soon.png');
+	position: relative;
+    z-index: 0;}
+/*chỉnh chữ*/
+.dau {font-family: 'Roboto', sans-serif; font-size: 18px;
+	color: #473f34;
+	margin-top:20px;
+	text-align: justify;
+	background-color: white;
+      	padding: 50px;
+	text-indent: 4em;
+      	margin-bottom: 20px;
+      	border-radius: 30px;
+      	box-shadow: 0 0 8px rgba(0,0,0,0.05); position: relative;
+    z-index: 1;}
+.giua {font-family: 'Roboto', sans-serif; font-size: 20px;
+	text-align: justify;
+	background-color: white;
+      	line-height:1.3;
+      	border-radius: 30px;
+      	box-shadow: 0 0 8px rgba(0,0,0,0.05);}
+.cuoi {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 4em;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+ul {list-style: none;}
+h2 {font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 30px;
+	text-indent: 2em; position: relative;
+    z-index: 1;
+	border-color: #473f34;}
+footer {text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 40px;}
+.dau h2{
+	position:relative;
+	bottom: 10px;
+}
+/*Giới thiệu nhân vật*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.giua {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    padding-top: 50px;
+}
+.giua h2 {
+	font-family: 'Roboto', sans-serif; font-size: 30px;
+	color: #473f34;
+	margin-bottom: 20px;
+	text-align: center;
+}	
+
+.container1 {
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.card {
+	background-color:#f5f5f5;
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: visible;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.card > .row {
+    color: palevioletred;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+    background: #8c9657;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card > .row > .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: visible;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p {
+    position: relative;
+    bottom: 15px;
+    color: #b0b0ba;
+    padding-top: 10px;
+}
+
+.description h4 {
+    text-transform: uppercase;
+    position: relative;
+    bottom: 5px;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    width: 600px;
+}
+
+input:checked + label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+.card-logo {
+    width: 80px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+.card[for="c1"] {
+    background-image: url('images/anhduong.png');
+    background-size: contain; 
+    background-position: center -20px; 
+    background-repeat: no-repeat; 
+}
+.card[for="c2"] {
+    background-image: url('images/havy.png');
+    background-size: contain; 
+    background-position: center -10px; 
+    background-repeat: no-repeat; 
+}
+.card[for="c3"] {
+    background-image: url('images/conhi.png');
+    background-size: contain; 
+    background-position: center -10px; 
+    background-repeat: no-repeat;
+}
+.card[for="c4"] {
+    background-image: url('images/bactu.png');
+    background-size: contain; 
+    background-position: center -18px; 
+    background-repeat: no-repeat;
+}
+
+
+/*Tóm tắt nội dung*/
+.giua2 {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 20px;
+	border-radius: 20px;
+	background-color: beige;
+	height: 100vh;
+	margin-top: 20px; 
+	line-height:1px;
+	width:auto;
+	margin-bottom: 20px;
+}
+
+.plane {
+        flex: 1; 
+        max-width: 300px; 
+	margin-right: auto;
+	justify-content: flex-start;
+        }
+
+.plane img {
+	width: 120%; 
+	height: auto;
+	position: relative;
+	left: 30px;
+} 
+
+.summary{
+	flex:2;
+	justify-content: flex-end;
+}
+		
+.giua2 h2{
+	font-family: 'Roboto', sans-serif; font-size: 30px;
+	color: #473f34;
+	margin-bottom: 20px;
+	text-align: center;
+	position: relative;
+	bottom:50px;
+}
+
+.giua2 p{
+	padding:1rem 0;
+	line-height: 2;
+	color:var(--light-color);
+	font-size: 20px;
+	text-align: justify;
+	clear: both; 
+}		
+/*aniamtion ảnh*/
+.plane img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	animation: animate 2s ease-in-out infinite;
+}
+@keyframes animate {
+	0% {
+	  transform: rotate(20deg);
+	}
+	25% {
+	  transform: rotate(0deg);
+	}
+	50% {
+	  transform: rotate(-20deg);
+	}
+	75% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(20deg);
+	}
+  }
+
+.summary img{
+flex: 1; 
+max-width: 300px; 
+margin-right: auto;
+justify-content: flex-start;
+}
+
+.cuoi img{
+	height: auto;
+	position: relative;
+	right: 40px;
+transform: translate(0px,10px);
+}
+.cuoi h2{
+	font-family: 'Roboto', sans-serif; font-size: 30px;
+	color: #473f34;
+	margin-bottom: 20px;
+	text-align: center;
+	position: relative;
+
+}
+.banquyen {font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #473f34; background-color: #f0e5c7;
+    margin-top: 10px;
+  border-radius: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;}
+/*chỉnh footer*/
+.site-footer {background-color: #473f34;
+	color: white;
+	padding: 20px 20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 40px;
+	border-radius: 30px;
+	box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);}
+.footer-container {max-width: 900px;
+	text-align: center;
+	margin: 0 auto;}
+.footer-title {font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	text-align: center;
+}
+.footer-title p{
+	text-align: center;
+}
+.footer-links {list-style: none;
+	padding: 0;
+	margin: 20px 0 10px 0;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 15px;}
+.footer-links li a {color: #f0e5c7;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	transition: 0.3s;}
+.footer-links li a:hover {text-decoration: underline;text-align: center;}
+.footer-contact {margin: 10px 0;
+	font-size: 14px;
+	text-align: center;}
+.footer-contact a {color: #ffffff;
+	text-align: center;
+	text-decoration: underline;}
+.footer-copy {font-size: 13px;
+	margin-top: 10px;
+
+	color: #ccc;
+	text-align: center;}				
