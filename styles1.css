@@ -22,7 +22,7 @@ header {background-color: #f0e5c7;
       	text-align: center;
 	border-radius: 20px;
       	box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
-h2 {font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 15px;}
+header h2 {font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 15px;}
 header p {font-family: 'Roboto', sans-serif; font-weight: bold;}
 /*căn lề giữa*/
 body {
