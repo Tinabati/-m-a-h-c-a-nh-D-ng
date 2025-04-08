@@ -74,11 +74,13 @@ body {
 }
 		
 h2{
+	font-family: 'Roboto';
 	font-size:100%;
 	color:var(--black);
 }
 
 p{
+	font-family: 'Roboto';
 	padding:1rem 0;
 	line-height: 2;
 	color:var(--light-color);
@@ -129,12 +131,13 @@ p{
 }
 		
 h2{
-	font-family:cursive;
+	font-family: 'Roboto';
 	font-size:100%;
 	color:var(--black);
 }
 
 p{
+	font-family: 'Roboto';
 	padding:1rem 0;
 	line-height: 2;
 	color:var(--light-color);
@@ -185,12 +188,13 @@ p{
 }
 		
 h2{
-	font-family:cursive;
+	font-family: 'Roboto';
 	font-size:100%;
 	color:var(--black);
 }
 
 p{
+	font-family: 'Roboto';
 	padding:1rem 0;
 	line-height: 2;
 	color:var(--light-color);
