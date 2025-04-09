@@ -15,7 +15,7 @@ nav ul li a {color: #f0e5c7; display: block;  padding: 15px 20px;
       text-decoration: none; position: relative;}
 nav ul li a:hover {color:peachpuff;text-decoration: underline;}
 nav ul li a.active {color:#8c9657; text-decoration: underline;}
-.slogan {font-family: 'Roboto'; font-size:10px; color:#8c9657;}
+.slogan {font-family: 'Roboto'; font-size:10px; color: white;}
 /*chỉnh styles cho header*/
 header {background-color: #f0e5c7;
       	color: #473f34; font-family: 'Playfair Display', serif; font-size: 25px; 
